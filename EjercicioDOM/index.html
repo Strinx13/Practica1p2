@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="main">
+    <!-- Encabezado principal de la página -->
+    <h1 id="Titulo">Antiguo Encabezado</h1>
+
+    <!-- Párrafo que será modificado mediante JavaScript -->
+    <p id="demo"></p>
+
+    <!-- Párrafo que será modificado mediante JavaScript -->
+    <p id="p1">Hello World</p>
+
+    <!-- Párrafos con la clase "intro", utilizados para demostración de selección de elementos -->
+    <p class="intro">ejemplo 1</p>
+    <p class="intro">Ejemplo2</p>
+
+    <!-- Lista desordenada con elementos de clase "list" -->
+    <ul class="list">
+        <li>Breaking Bad</li>
+        <li>Hell's Paradise</li>
+        <li>Deadman Wonderland</li>
+        <li>The Walking Dead</li>
+        <li>Demon Slayer </li>
+    </ul>
+
+    <!-- Formulario con id "frm1", utilizado para demostración de obtención de valores de elementos -->
+    <form action="" id="frm1" name="frm1">
+        <label for="name">Nombre</label>
+        <input type="text" name="">
+        <button type="button" id="btn">Enviar</button>
+    </form>
+
+    <!-- Formulario con validación en el evento onsubmit -->
+    <form name="miFormulario" onsubmit="return validarFormulario()">
+        Nombre: <input type="text" name="nombre">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Formulario para validar un número con un botón de validación -->
+    <form action="">
+        <label for="numero">Ingrese un número (entre 1 y 10):</label>
+        <input type="text" id="numero">
+        <button type="button" onclick="validarNumero()">Validar</button>
+        <!-- Párrafo donde se mostrará el resultado de la validación del número -->
+        <p id="demo1"></p>
+    </form>
+
+    <!-- Imagen que será modificada mediante JavaScript -->
+    <img src="" alt="" id="miImagen">
+
+    <!-- Párrafo donde se mostrará la fecha actual mediante JavaScript -->
+    <p id="demo3"></p>
+
+    <!-- Enlace al archivo JavaScript externo -->
+    <!-- <script src="script.js"></script> -->
+</body>
+
+
+</html>
